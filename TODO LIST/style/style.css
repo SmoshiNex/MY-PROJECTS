@@ -124,7 +124,12 @@ input[type="date"]:focus {
     transition: var(--transition);
     white-space: nowrap;
 }
-
+.addbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .add-btn {
     background-color: var(--accent-color);
     color: white;

@@ -34,19 +34,20 @@ $completedTasks = array_filter($tasks, fn($task) => $task['completed']);
         <div class="card">
             <form id="task-form">
                 <div class="form-group">
-                    <input type="text" id="task-name" placeholder="Task Name" required>
+                    <input type="text" id="task-name" placeholder="Task Name" >
                 </div>
                 <div class="form-group date-group">
                     <div class="date-input">
                         <label for="start-date">Start Date</label>
-                        <input type="date" id="start-date" required>
+                        <input type="date" id="start-date" >
                     </div>
                     <div class="date-input">
                         <label for="end-date">End Date</label>
-                        <input type="date" id="end-date" required>
+                        <input type="date" id="end-date" >
                     </div>
                 </div>
-                <button type="submit" class="btn add-btn"><i class="fas fa-plus"></i> Add Task</button>
+                
+               <div class="addbtn"><button type="submit" class="btn add-btn"><i class="fas fa-plus"></i> Add Task</button></div> 
             </form>
         </div>
         
